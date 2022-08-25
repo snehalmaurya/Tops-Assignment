@@ -2,16 +2,16 @@
 #include <stdio.h>
 void main()
 {
-    int principal, rate, time, simple_interest;
+    float principal, rate, time, simple_interest;
     printf("Enter the  balance:");
-    scanf("%d", &principal);
+    scanf("%f", &principal);
 
     printf("Enter the interest rate:");
-    scanf("%d", &rate);
+    scanf("%f", &rate);
 
     printf("Enter the time:");
-    scanf("%d", &time);
+    scanf("%f", &time);
 
-    simple_interest = principal * rate * time;
-    printf("%d\n", simple_interest);
+    simple_interest = (principal * rate * time)/100;
+    printf("%f\n", simple_interest);
 }
