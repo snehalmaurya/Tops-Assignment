@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
 
     for (int row = 1; row <= 5; row++)
@@ -18,4 +18,5 @@ void main()
         }
         printf("\n");
     }
+    return 0;
 }
