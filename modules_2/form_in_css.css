@@ -1,0 +1,46 @@
+h2.main_heading{
+    background-color: #99ccff;
+    color: #ff0000;
+}
+.main_div{
+    background-color: #cdfffe;
+    padding-top: 50px;
+   
+}
+fieldset{
+    border: transparent;
+    text-align: center;
+
+}
+fieldset legend{
+    color: #ff0000;
+    font-weight: bold;
+    text-align: left;
+
+}
+span.required{
+    color: #ff0000;
+}
+.form_control{
+    padding-bottom: 5px;
+}
+.w_100{
+   width: 100%;
+   display: flex;
+}
+.w_50{
+    width: 50%;
+ }
+ fieldset.declaration{
+    text-align: left;
+ }
+ .main_form{
+    color: #0000ff;
+ }
+ p{
+    margin-bottom:50px ;
+ }
+ .button{
+    background-color:  #3e8db9;
+    color: #ffffff;
+ }
